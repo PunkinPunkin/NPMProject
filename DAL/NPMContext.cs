@@ -25,7 +25,7 @@ namespace DAL
             {
                 if (string.IsNullOrEmpty(_connectionString))
                 {
-                    _connectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=;Persist Security Info=False;User ID=josh;Password=5a45nF9uW6";
+                    _connectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=MyDB;Persist Security Info=False;User ID=josh;Password=5a45nF9uW6";
                 }
                 optionsBuilder.UseSqlServer(_connectionString);
             }

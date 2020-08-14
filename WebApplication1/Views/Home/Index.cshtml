@@ -1,3 +1,10 @@
-﻿<p>
-    Hello World 123
+﻿@model IQueryable<NpmPainting>
+@using DAL.Models
+<p>
+    <ul>
+        @foreach (var p in Model)
+        {
+            <li>@p.ItemNo</li>
+        }
+    </ul>
 </p>

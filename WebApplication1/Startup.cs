@@ -37,6 +37,9 @@ namespace WebApplication1
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+
+            services.AddSession(); //±Ò¥ÎSession
+
             services.AddDbContext<NPMContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DB_ConnectionString")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -59,7 +62,7 @@ namespace WebApplication1
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-            //app.UseSession();
+            app.UseSession();
             app.UseCookiePolicy();
 
 

@@ -1,5 +1,0 @@
-D:\Projects\NPM_PubWeb_Painting\NPM_PubWeb_Painting\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
-D:\Projects\NPM_PubWeb_Painting\NPM_PubWeb_Painting\DAL\bin\Debug\netcoreapp3.1\DAL.dll
-D:\Projects\NPM_PubWeb_Painting\NPM_PubWeb_Painting\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
-D:\Projects\NPM_PubWeb_Painting\NPM_PubWeb_Painting\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
-D:\Projects\NPM_PubWeb_Painting\NPM_PubWeb_Painting\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs

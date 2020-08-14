@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DAL;
+using DAL.DB;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers
@@ -10,6 +12,9 @@ namespace WebApplication1.Controllers
     {
         public IActionResult Index()
         {
+            NPMContext db = new NPMContext();
+
+            IEnumerable<OrgInfo> orgs = db.OrgInfos;
             return View();
         }
     }

@@ -17,5 +17,7 @@ namespace DAL.DB
         [MaxLength(100)]
         public string OrgAddress { get; set; }
 
+        public string OrgPhone { get; set; }
+
     }
 }
